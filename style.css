@@ -1,12 +1,20 @@
 
 /* general gradio fixes */
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 10px;
+}
+  
 :root, .dark{
     --checkbox-label-gap: 0.25em 0.1em;
     --section-header-text-size: 12pt;
     --block-background-fill: transparent;
-}
-
+} 
+ 
 .block.padded:not(.gradio-accordion) {
     padding: 0 !important;
 }
